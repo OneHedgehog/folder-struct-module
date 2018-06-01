@@ -23,7 +23,7 @@ function renderTrueFolderStrruct(elem, data, str='menu-') {
         } else {
             var appendedEl = $(
                 "<li class='file'>" +
-                "<a href='#'> " + item.text + "</a>" +
+                "<a> " + item.text + "</a>" +
                 "</li>")
             elem.append(appendedEl);
         }

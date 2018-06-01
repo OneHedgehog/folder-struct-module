@@ -1,0 +1,19 @@
+{
+  "name": "ts-folder-tree",
+  "version": "1.0.0",
+  "description": "drow a html markkup for tree data",
+  "main": "ts-folder-tree.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OneHedgehog/folder-struct-module.git"
+  },
+  "author": "teamsoft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OneHedgehog/folder-struct-module/issues"
+  },
+  "homepage": "https://github.com/OneHedgehog/folder-struct-module#readme"
+}
