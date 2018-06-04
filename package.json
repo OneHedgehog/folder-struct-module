@@ -1,19 +1,47 @@
 {
-  "name": "ts-folder-tree",
-  "version": "1.0.0",
-  "description": "drow a html markkup for tree data",
-  "main": "ts-folder-tree.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "ts-folder-tree",
+  "_id": "ts-folder-tree@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-7apk+pW4FfA+rUBdH3nZCCS+IAYljIPBI7ph1g6NfdbHQWgEHnb0WYh6pVonHpxJpWd44r7dDUjnyZ/iEKZwzA==",
+  "_location": "/ts-folder-tree",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ts-folder-tree",
+    "name": "ts-folder-tree",
+    "escapedName": "ts-folder-tree",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/ts-folder-tree/-/ts-folder-tree-1.0.0.tgz",
+  "_shasum": "fe1687dc047b8f8f9cdcd7f92174b36174bdc2b6",
+  "_spec": "ts-folder-tree",
+  "_where": "D:\\pharma\\pharma\\src\\TeamSoft\\FeedbackBundle\\frontend",
+  "author": {
+    "name": "teamsoft"
+  },
+  "bugs": {
+    "url": "https://github.com/OneHedgehog/folder-struct-module/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "drow a html markkup for tree data",
+  "homepage": "https://github.com/OneHedgehog/folder-struct-module#readme",
+  "license": "ISC",
+  "main": "ts-folder-tree.js",
+  "name": "ts-folder-tree",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OneHedgehog/folder-struct-module.git"
   },
-  "author": "teamsoft",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/OneHedgehog/folder-struct-module/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/OneHedgehog/folder-struct-module#readme"
+  "version": "1.0.0"
 }

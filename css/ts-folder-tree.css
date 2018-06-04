@@ -2,6 +2,10 @@ ol.tree {
     padding-left: 30px;
 }
 
+ol.tree ol {
+    padding-top: 10px;
+}
+
 ol.tree li {
     list-style-type: none;
     color: #000;
@@ -10,6 +14,8 @@ ol.tree li {
 }
 
 ol.tree li label {
+    position: relative;
+    top: 5px;
     padding-left: 37px;
     cursor: pointer;
     display: block;
@@ -39,9 +45,6 @@ ol.tree li input + ol > li {
     position: relative;
 }
 
-ol.tree li input + ol > li:last-of-type{
-    border: none;
-}
 
 ol.tree li input + ol > li:before {
     position: absolute;
@@ -52,19 +55,13 @@ ol.tree li input + ol > li:before {
     bottom: 0;
 }
 
-ol.tree li input + ol > li:last-of-type:before {
-    position: absolute;
-    content: " ";
-    width: 0px;
-    height: 0px;
-    background: #999;
-}
-
 ol.tree li.file {
     margin-left: -1px !important;
 }
 
 ol.tree li.file a {
+    position: relative;
+    top: 10px;
     width: 100%;
     display: inline-block;
     margin-left: 21px;
